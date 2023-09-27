@@ -1,0 +1,41 @@
+﻿<Window x:Class="WPFExecuteNonQuery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Agregar Cliente" Height="500" Width="400">
+    <Grid>
+        <Label Content="ID de Cliente:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0"/>
+        <TextBox x:Name="txtIdCliente" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,20,0,0" Width="200"/>
+
+        <Label Content="Nombre de Compañía:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,60,0,0"/>
+        <TextBox x:Name="txtNombreCompania" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,60,0,0" Width="200"/>
+
+        <Label Content="Nombre de Contacto:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,100,0,0"/>
+        <TextBox x:Name="txtNombreContacto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,100,0,0" Width="200"/>
+
+        <Label Content="Cargo de Contacto:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,140,0,0"/>
+        <TextBox x:Name="txtCargoContacto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,140,0,0" Width="200"/>
+
+        <Label Content="Dirección:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,180,0,0"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,180,0,0" Width="200"/>
+
+        <Label Content="Ciudad:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,220,0,0"/>
+        <TextBox x:Name="txtCiudad" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,220,0,0" Width="200"/>
+
+        <Label Content="Región:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,260,0,0"/>
+        <TextBox x:Name="txtRegion" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,260,0,0" Width="200"/>
+
+        <Label Content="Código Postal:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,300,0,0"/>
+        <TextBox x:Name="txtCodPostal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,300,0,0" Width="200"/>
+
+        <Label Content="País:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,340,0,0"/>
+        <TextBox x:Name="txtPais" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,340,0,0" Width="200"/>
+
+        <Label Content="Teléfono:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,380,0,0"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,380,0,0" Width="200"/>
+
+        <Label Content="Fax:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,420,0,0"/>
+        <TextBox x:Name="txtFax" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,420,0,0" Width="200"/>
+
+        <Button x:Name="btnSave" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="40" Margin="20,460,0,0" Click="btnSave_Click"/>
+    </Grid>
+</Window>

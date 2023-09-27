@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPFExecuteNonQuery.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestión de Clientes" Height="600" Width="400">
+    <Grid>
+        <Label Content="Listado de Clientes" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,20,10,0" FontSize="18"/>
+
+        <DataGrid x:Name="dataGridClientes" HorizontalAlignment="Left" VerticalAlignment="Top" Width="360" Height="450" Margin="20,60,0,0" AutoGenerateColumns="True"/>
+
+        <Button Content="Listar Clientes" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="40" Margin="20,520,0,0" Click="btnListarClientes_Click"/>
+    </Grid>
+</Window>
